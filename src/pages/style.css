@@ -146,12 +146,12 @@ body {
 .skill {
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 180px;
     border: transparent;
 }
 
 .skill img {
-    height: 300px;
+    height: 180px;
 }
 
 #workhours {
@@ -179,13 +179,13 @@ button a {
 .job {
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    gap: .5rem;
     margin-top: 15px;
     flex-wrap: wrap
 }
 
 .services {
-    max-width: 300px;
+    max-width: 230px;
     text-align: center;
 }
 
@@ -196,11 +196,11 @@ button a {
     height: 200px;
 }
 
-.services h5 {
+.services h6 {
     font-weight: 600;
 }
 
-.services h5:hover {
+.services h6:hover {
     color: orangered;
     cursor: pointer;
 }
