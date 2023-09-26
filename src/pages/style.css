@@ -172,7 +172,7 @@ button a {
 /* about/ skills */
 
 /* services */
-.services-offered{
+.services-offered {
     margin-top: 3rem;
 }
 
@@ -208,86 +208,167 @@ button a {
 /* services */
 
 /* contact page */
-.contact-form-wrapper {
-    padding: 100px 0;
+.contact{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+.group {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+input {
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #757575;
+    background-color: transparent;
+}
+
+input:focus {
+    outline: none;
+}
+
+label {
+    color: #c9bfbfa4;
+    font-size: 13px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+input:focus~label,
+input:valid~label {
+    top: -20px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.bar {
+    position: relative;
+    display: block;
+    width: 300px;
+}
+
+.bar:before,
+.bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #5264AE;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.bar:before {
+    left: 50%;
+}
+
+.bar:after {
+    right: 50%;
+}
+
+input:focus~.bar:before,
+input:focus~.bar:after {
+    width: 50%;
+}
+
+.highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+input:focus~.highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    -moz-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease;
+}
+
+@-webkit-keyframes inputHighlighter {
+    from {
+        background: #5264AE;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@-moz-keyframes inputHighlighter {
+    from {
+        background: #5264AE;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@keyframes inputHighlighter {
+    from {
+        background: #5264AE;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+.submit-button-wrapper input{
+    background-color: aliceblue;
+}
+
+.contact2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    width: 300px;
+}
+
+.contact2 h4{
+    font-weight: 600;
+}
+
+.faq{
+    font-family: 'Raleway', sans-serif;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
 }
 
-.contact-form {
-    padding: 30px 25px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    max-width: 400px;
+.faq1{
+    width: 300px;
+    text-align: start;
 }
 
-.contact-form textarea {
-    resize: none;
-}
-
-.contact-form .form-input,
-.form-text-area {
-    background-color: #f0f4f5;
-    height: 50px;
-    padding-left: 16px;
-}
-
-.contact-form .form-text-area {
-    background-color: #f0f4f5;
-    height: auto;
-    padding-left: 16px;
-}
-
-.contact-form .form-control::placeholder {
-    color: #aeb4b9;
-    font-weight: 500;
-    opacity: 1;
-}
-
-.contact-form .form-control:-ms-input-placeholder {
-    color: #aeb4b9;
-    font-weight: 500;
-}
-
-.contact-form .form-control::-ms-input-placeholder {
-    color: #aeb4b9;
-    font-weight: 500;
-}
-
-.contact-form .form-control:focus {
-    border-color: #3f6ff3;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px #5a77d6;
-}
-
-.contact-form .title {
-    text-align: center;
-    font-size: 24px;
-    font-weight: 500;
-}
-
-.contact-form .description {
-    color: #aeb4b9;
-    font-size: 14px;
-    text-align: center;
-}
-
-.contact-form .submit-button-wrapper {
-    text-align: center;
-}
-
-.contact-form .submit-button-wrapper input {
-    border: none;
-    border-radius: 4px;
-    background-color: #3532f2;
-    color: white;
-    text-transform: uppercase;
-    padding: 10px 60px;
-    font-weight: 500;
-    letter-spacing: 2px;
-}
-
-.contact-form .submit-button-wrapper input:hover {
-    background-color: #00b3d3;
+.faq2{
+    text-align: start;
 }
 /* contact page */
