@@ -228,8 +228,9 @@ input {
     display: block;
     width: 300px;
     border: none;
-    border-bottom: 1px solid #757575;
+    border-bottom: 1px solid #75757581;
     background-color: transparent;
+    color: #fff;
 }
 
 input:focus {

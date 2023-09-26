@@ -35,7 +35,7 @@ const Contact = () => {
 
                 <div className="contact2">
                     <h4>Call Me</h4>
-                    <p>We can schedule a call to discuss your project and design. Reach Out on: 0712345678</p>
+                    <p>We can schedule a call to discuss your project and design. Reach Out on: <u>0712345678</u></p>
                     <h4>Live Chat</h4>
                     <p>We can schedule a zoom meeting or physical sit-down.</p>
                 </div>
@@ -49,7 +49,10 @@ const Contact = () => {
 
                 <div className="faq2">
                     <p className="fw-bold">Some Few Concerns you might have</p>
-                    <p>Frequently asked Questions.</p>
+                    <ul>
+                        <li>Working Timeline: Depends on Task/Project.</li>
+                        <li>Project Costing: Reach Out for a Quotation.</li>
+                    </ul>
                 </div>
             </div>
         </div>
