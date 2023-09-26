@@ -44,7 +44,7 @@ const Contact = () => {
             <div className="faq text-white">
                 <div className="faq1">
                     <p>FAQ</p>
-                    <h1 className="display-4 fw-bold">Frequently asked Questions.</h1>
+                    <h1>Frequently asked Questions.</h1>
                 </div>
 
                 <div className="faq2">

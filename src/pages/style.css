@@ -339,7 +339,7 @@ input:focus~.highlight {
 }
 
 .submit-button-wrapper input{
-    background-color: aliceblue;
+    background-color: rgb(65, 154, 231);
 }
 
 .contact2{
@@ -367,6 +367,10 @@ input:focus~.highlight {
 .faq1{
     width: 300px;
     text-align: start;
+}
+
+.faq1 h1{
+    font-weight: 700;
 }
 
 .faq2{

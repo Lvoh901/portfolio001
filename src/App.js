@@ -11,6 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './pages/navigation';
 import Hero from './pages/hero';
 import About from './pages/about';
+import Blog from './pages/blog';
 import Contact from './pages/contact';
 
 function App() {
@@ -20,8 +21,9 @@ function App() {
 
       <Routes>
         <Route path="/" exact element={<Hero />} />;
-        <Route path="/about" exact element={<About />} />;
-        <Route path="/contact" exact element={<Contact />} />;
+        <Route path="/about" element={<About />} />;
+        <Route path="/contact" element={<Contact />} />;
+        <Route path="/blog" element={<Blog />} />;
       </Routes>
     </div>
   );
