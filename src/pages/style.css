@@ -280,21 +280,47 @@ button a {
 }
 
 .project-card {
+    font-family: 'Raleway', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 2rem;
-    margin: 3rem 0;
-    width: 350px;
-    border-radius: 5px;
+    color: aliceblue;
+    gap: 1rem;
     cursor: pointer;
+    margin: 2rem 0;
 }
 
-.img-bottom{
+.project01 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    transition: .2s all;
+}
+
+.project-card:hover .project01 {
+    filter: blur(3px);
+    opacity: .5;
+    transform: scale(.98);
+    box-shadow: none;
+}
+
+.project-card:hover .project01:hover {
+    transform: scale(1);
+    filter: blur(0px);
+    opacity: 1;
+    box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
+    background: azure;
+    color: #000;
+}
+
+.img-bottom {
     max-width: 100%;
     max-height: 300px;
-    margin-left: 5px;
+    border-radius: 5px;
 }
 
 #btn_more {
@@ -307,6 +333,11 @@ button a {
 
 #btn_more a {
     font-size: 0.875rem;
+}
+
+#btn_more a:hover {
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 /* projects */

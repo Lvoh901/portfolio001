@@ -119,17 +119,33 @@ const About = () => {
                             <li>Adobe Illustrator | Photoshop</li>
                         </ul>
                     </div>
-
-                    <div className="project-card">
-                        <Project
-                            title = "Portfolio"
-                            number = "01"
-                            overview = "Built with React.JS with skills and knowldege through HTML, CSS, Bootstrap and JavaScript."
-                            imageSrc = {portfolioImage}
-                            describe = "Personal"
-                        />
-                    </div>
                 </div>
+            </div>
+
+            <div className="project-card">
+                <Project
+                    title="Portfolio"
+                    number="01"
+                    overview="Built with React.JS with skills and knowldege through HTML, CSS, Bootstrap and JavaScript."
+                    imageSrc={portfolioImage}
+                    describe="Personal"
+                />
+
+                <Project
+                    title="Portfolio"
+                    number="02"
+                    overview="Built with React.JS with skills and knowldege through HTML, CSS, Bootstrap and JavaScript."
+                    imageSrc={portfolioImage}
+                    describe="Personal"
+                />
+
+                <Project
+                    title="Portfolio"
+                    number="03"
+                    overview="Built with React.JS with skills and knowldege through HTML, CSS, Bootstrap and JavaScript."
+                    imageSrc={portfolioImage}
+                    describe="Personal"
+                />
             </div>
         </div>
     );
