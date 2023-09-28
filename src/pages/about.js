@@ -1,7 +1,12 @@
 import React, { useState } from "react";
 import Card from "./card";
-import Services from "./services"
+import Services from "./services";
+import Project from "./project";
 import { NavLink } from "react-router-dom";
+
+//images
+import portfolioImage from "../pages/images/portfolio.png";
+
 
 const About = () => {
     const [totalHours, setTotalHours] = useState(0);
@@ -62,7 +67,7 @@ const About = () => {
 
                     <div className="job">
                         <Services
-                            title="Web Development/ Design"
+                            title="Web Development"
                             imageSrc="https://images.unsplash.com/photo-1600132806608-231446b2e7af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
                         />
 
@@ -82,7 +87,7 @@ const About = () => {
                         />
 
                         <Services
-                            title="Data Visualization Models"
+                            title="Data Visualization"
                             imageSrc="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2015&q=80"
                         />
                     </div>
@@ -115,8 +120,14 @@ const About = () => {
                         </ul>
                     </div>
 
-                    <div className="project-card mt-4">
-
+                    <div className="project-card">
+                        <Project
+                            title = "Portfolio"
+                            number = "01"
+                            overview = "Built with React.JS with skills and knowldege through HTML, CSS, Bootstrap and JavaScript."
+                            imageSrc = {portfolioImage}
+                            describe = "Personal"
+                        />
                     </div>
                 </div>
             </div>

@@ -135,24 +135,24 @@ body {
     gap: 1rem;
 }
 
-.about h1{
+.about h1 {
     font-size: 3rem;
     text-align: start;
     font-weight: 800;
 }
 
-#about{
+#about {
     text-align: start;
     font-size: 1.5rem;
 }
 
-#about-title{
+#about-title {
     display: flex;
     flex: 15%;
     justify-content: center;
 }
 
-#about-section{
+#about-section {
     display: flex;
     flex-direction: column;
     flex: 80%;
@@ -176,19 +176,19 @@ body {
     border: transparent;
 }
 
-.number{
+.number {
     text-align: start;
     font-weight: 700;
     text-decoration: overline;
     font-size: 1.5rem;
 }
 
-.number:hover{
+.number:hover {
     color: orangered;
     cursor: pointer;
 }
 
-.card-title{
+.card-title {
     text-align: start;
 }
 
@@ -214,13 +214,14 @@ button a {
     margin-top: 3rem;
 }
 
-.services-offered h4{
+.services-offered h4 {
     text-transform: uppercase;
 }
 
 .job {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: .5rem;
     margin-top: 15px;
     flex-wrap: wrap
@@ -235,7 +236,7 @@ button a {
     border-radius: 10px;
     margin-bottom: 5px;
     max-width: 100%;
-    height: 100px;
+    height: 150px;
 }
 
 .services h6 {
@@ -251,39 +252,67 @@ button a {
 /* services */
 
 /* projects */
-.projects{
+.projects {
     font-family: 'Raleway', sans-serif;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 2rem;
     margin-top: 1.5rem;
 }
 
-.highlights{
+.highlights {
     text-align: start;
 }
 
-.highlights p:hover{
+.highlights p:hover {
     font-weight: 600;
     color: orangered;
     cursor: pointer;
 }
 
-.content1{
+.content1 {
     text-align: start;
 }
 
-.content1 ul li{
+.content1 ul li {
     list-style-type: decimal-leading-zero;
 }
 
-.project-card{
+.project-card {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    gap: 2rem;
+    margin: 3rem 0;
+    width: 350px;
+    border-radius: 5px;
+    cursor: pointer;
 }
+
+.img-bottom{
+    max-width: 100%;
+    max-height: 300px;
+    margin-left: 5px;
+}
+
+#btn_more {
+    background-color: #2563EB;
+    padding: 3px 10px;
+    border: transparent;
+    border-radius: 5px;
+    margin: 10px 0 5px 5px;
+}
+
+#btn_more a {
+    font-size: 0.875rem;
+}
+
 /* projects */
 
 /* contact page */
-.contact{
+.contact {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -413,11 +442,11 @@ input:focus~.highlight {
     }
 }
 
-.submit-button-wrapper input{
+.submit-button-wrapper input {
     background-color: rgb(65, 154, 231);
 }
 
-.contact2{
+.contact2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -425,11 +454,11 @@ input:focus~.highlight {
     width: 300px;
 }
 
-.contact2 h4{
+.contact2 h4 {
     font-weight: 600;
 }
 
-.faq{
+.faq {
     font-family: 'Raleway', sans-serif;
     display: flex;
     flex-wrap: wrap;
@@ -439,16 +468,17 @@ input:focus~.highlight {
     margin-top: 5rem;
 }
 
-.faq1{
+.faq1 {
     width: 300px;
     text-align: start;
 }
 
-.faq1 h1{
+.faq1 h1 {
     font-weight: 700;
 }
 
-.faq2{
+.faq2 {
     text-align: start;
 }
+
 /* contact page */
