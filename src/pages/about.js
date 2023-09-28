@@ -126,7 +126,7 @@ const About = () => {
                 <Project
                     title="Portfolio"
                     number="01"
-                    overview="Built with React.JS with skills and knowldege through HTML, CSS, Bootstrap and JavaScript."
+                    overview="Built with React.JS with skills and knowldege gained in HTML, CSS, Bootstrap and JavaScript."
                     imageSrc={portfolioImage}
                     describe="Personal"
                 />
@@ -134,7 +134,7 @@ const About = () => {
                 <Project
                     title="Blog"
                     number="02"
-                    overview="Built with React.JS with skills and knowldege through HTML, CSS, Bootstrap and JavaScript."
+                    overview="Built with React.JS with skills and knowldege gained in HTML, CSS, Bootstrap and JavaScript."
                     imageSrc={portfolioImage}
                     describe="Personal"
                 />
@@ -142,7 +142,7 @@ const About = () => {
                 <Project
                     title="Commerce"
                     number="03"
-                    overview="Built with React.JS with skills and knowldege through HTML, CSS, Bootstrap and JavaScript."
+                    overview="Built with React.JS with skills and knowldege gained in HTML, CSS, Bootstrap and JavaScript."
                     imageSrc={portfolioImage}
                     describe="Personal"
                 />
