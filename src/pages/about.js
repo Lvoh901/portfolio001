@@ -103,7 +103,7 @@ const About = () => {
                 <div className="highlights">
                     <p>01. Portfolio</p>
                     <p>02. Blog</p>
-                    <p>03. E-Commerce</p>
+                    <p>03. Commerce</p>
                 </div>
 
                 <div className="content1">
@@ -132,7 +132,7 @@ const About = () => {
                 />
 
                 <Project
-                    title="Portfolio"
+                    title="Blog"
                     number="02"
                     overview="Built with React.JS with skills and knowldege through HTML, CSS, Bootstrap and JavaScript."
                     imageSrc={portfolioImage}
@@ -140,7 +140,7 @@ const About = () => {
                 />
 
                 <Project
-                    title="Portfolio"
+                    title="Commerce"
                     number="03"
                     overview="Built with React.JS with skills and knowldege through HTML, CSS, Bootstrap and JavaScript."
                     imageSrc={portfolioImage}

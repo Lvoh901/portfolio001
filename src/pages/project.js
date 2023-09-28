@@ -8,8 +8,8 @@ function Project(props) {
     return (
         <div className="project01">
             <p className="number">{number}</p>
-            <p className="card-title">{title}</p>
-            <small className="describe">{describe}</small>
+            <p className="card-title fw-bold">{title}</p>
+            <small className="describe fw-bold">{describe}</small>
             <p className="overview">{overview}</p>
             <img src={imageSrc} className="img-bottom" alt={title} />
 
