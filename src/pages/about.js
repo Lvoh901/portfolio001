@@ -19,45 +19,44 @@ const About = () => {
     };
 
     return (
-        <div className="container about">
-            <div className="container text-white" id="about-section">
-                <h1>About Me:</h1>
-                <p id="about">
-                    A versatile professional with a passion for web development, graphic design, and Geographic Information Systems (GIS) seeking to merge creativity and technology as a way to craft innovative real-world solutions. This journey is fueled by an insatiable curiosity and a love for exploring new horizons. Join me on this exciting journey of discovery as we push the boundaries of what\'s possible in the digital world.
-                </p>
+        <div className="container">
+            <div className="about">
+                <div className="text-white" id="about-title">
+                    <h1>About Me:</h1>
+                </div>
+
+                <div className="container text-white" id="about-section">
+                    <p id="about">
+                        A versatile professional with a passion for web development, graphic design, and Geographic Information Systems (GIS) seeking to merge creativity and technology as a way to craft innovative real-world solutions. This journey is fueled by an insatiable curiosity and a love for exploring new horizons. Join me on this exciting journey of discovery as we push the boundaries of what\'s possible in the digital world. Professional Skills:
+                    </p>
+
+                    <div className="skills">
+                        <Card
+                            title="Logo Design"
+                            number="01"
+                        />
+                        <Card
+                            title="Web Dev."
+                            number="02"
+                        />
+                        <Card
+                            title="Freelancing"
+                            number="03"
+                        />
+                        <Card
+                            title="GIS"
+                            number="04"
+                        />
+                    </div>
+
+                    <div className="hours text-center" id="workhours">
+                        <button className="btn_one" onClick={calculateTotalHours}>Professional Work Hours</button>
+                        <p id="total" className="fw-bold">{totalHours}+</p>
+                    </div>
+                </div>
             </div>
 
             <div className="container text-white mb-2" id="skills">
-                <h4 classname="mb-5">Skillset:</h4>
-
-                <div className="skills">
-                    <Card
-                        title="01. Logo Design"
-                        description="Make your brand standout with an attention-provoking logo."
-                        imageSrc="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
-                    />
-                    <Card
-                        title="02. Web Dev."
-                        description="Modern Website built on version control, HTML, CSS, and React.JS, JS."
-                        imageSrc="https://images.unsplash.com/photo-1624996752380-8ec242e0f85d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
-                    />
-                    <Card
-                        title="03. Freelancing"
-                        description="Research and Data Analysis models based on data."
-                        imageSrc="https://images.unsplash.com/photo-1592151450113-bdf5982da169?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
-                    />
-                    <Card
-                        title="04. GIS"
-                        description="Data Collection, Analysis, Representation, and periodic updates."
-                        imageSrc="https://images.unsplash.com/photo-1478860002487-680cc42afbeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
-                    />
-                </div>
-
-                <div className="hours text-center" id="workhours">
-                    <button className="btn_one" onClick={calculateTotalHours}>Professional Work Hours</button>
-                    <p id="total" className="fw-bold">{totalHours}+</p>
-                </div>
-
                 <div className="services-offered">
                     <h4 classname="mb-5">Services:</h4>
 
@@ -91,6 +90,34 @@ const About = () => {
                     <button className="btn_one">
                         <NavLink to="/contact" >Contact</NavLink>
                     </button>
+                </div>
+            </div>
+
+            <hr className="text-white" />
+            <div className="container text-white projects">
+                <div className="highlights">
+                    <p>01. Portfolio</p>
+                    <p>02. Blog</p>
+                    <p>03. E-Commerce</p>
+                </div>
+
+                <div className="content1">
+                    <div className="main-content">
+                        <h1>Complete Projects</h1>
+                        <p>All projects are built using a combination of different graphics and web development tools including:</p>
+
+                        <ul>
+                            <li>HTML | CSS | JavaScript</li>
+                            <li>Bootstrap</li>
+                            <li>Git | GitHub</li>
+                            <li>ReactJS</li>
+                            <li>Adobe Illustrator | Photoshop</li>
+                        </ul>
+                    </div>
+
+                    <div className="project-card mt-4">
+
+                    </div>
                 </div>
             </div>
         </div>

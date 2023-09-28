@@ -2,15 +2,12 @@
 import React from 'react';
 
 function Card(props) {
-  const { title, description, imageSrc } = props;
+  const { title, number } = props;
 
   return (
-    <div className="card skill">
-      <img src={imageSrc} className="card-img-top" alt={title} />
-      <div className="card-body">
-        <h5 className="card-title fw-bold">{title}</h5>
-        <p className="card-text">{description}</p>
-      </div>
+    <div className="skill">
+      <p className="number">{number}</p>
+      <h5 className="card-title">{title}</h5>
     </div>
   );
 }

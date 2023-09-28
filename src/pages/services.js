@@ -5,8 +5,8 @@ const Services = (props) => {
 
     return (
         <div className="services">
-            <h6 className="card-title fw-bold mb-2">{title}</h6>
             <img src={imageSrc} className="card-img-top" alt={title} />
+            <h6 className="card-title fw-bold mb-2">{title}</h6>
         </div>
     );
 }
