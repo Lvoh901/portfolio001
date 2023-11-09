@@ -131,7 +131,7 @@ body {
     margin: 2.5rem 0;
     font-family: 'Raleway', sans-serif;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 1rem;
 }
 
@@ -142,8 +142,8 @@ body {
 }
 
 #about {
-    text-align: start;
-    font-size: 1.5rem;
+    text-align: center;
+    font-size: 1rem;
 }
 
 #about-title {
@@ -156,17 +156,6 @@ body {
     display: flex;
     flex-direction: column;
     flex: 80%;
-}
-
-#skills {
-    margin-top: 2rem;
-}
-
-.skills {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: .6rem;
 }
 
 .skill {
@@ -254,10 +243,6 @@ button a {
 /* projects */
 .projects {
     font-family: 'Raleway', sans-serif;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
     margin-top: 1.5rem;
 }
 
@@ -269,10 +254,6 @@ button a {
     font-weight: 600;
     color: orangered;
     cursor: pointer;
-}
-
-.content1 {
-    text-align: start;
 }
 
 .content1 ul li {

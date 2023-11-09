@@ -30,34 +30,15 @@ const About = () => {
                     <h1>About Me:</h1>
                 </div>
 
-                <div className="container text-white" id="about-section">
+                <div className="text-white" id="about-section">
                     <p id="about">
                         A versatile professional with a passion for web development, graphic design, and Geographic Information Systems (GIS) seeking to merge creativity and technology as a way to craft innovative real-world solutions. This journey is fueled by an insatiable curiosity and a love for exploring new horizons. Join me on this exciting journey of discovery as we push the boundaries of what\'s possible in the digital world. Professional Skills:
                     </p>
+                </div>
 
-                    <div className="skills">
-                        <Card
-                            title="Logo Design"
-                            number="01"
-                        />
-                        <Card
-                            title="Web Dev."
-                            number="02"
-                        />
-                        <Card
-                            title="Freelancing"
-                            number="03"
-                        />
-                        <Card
-                            title="GIS"
-                            number="04"
-                        />
-                    </div>
-
-                    <div className="hours text-center" id="workhours">
-                        <button className="btn_one" onClick={calculateTotalHours}>Professional Work Hours</button>
-                        <p id="total" className="fw-bold">{totalHours}+</p>
-                    </div>
+                <div className="hours text-center" id="workhours">
+                    <button className="btn_one" onClick={calculateTotalHours}>Professional Work Hours</button>
+                    <p id="total" className="fw-bold">{totalHours}+</p>
                 </div>
             </div>
 
@@ -74,11 +55,6 @@ const About = () => {
                         <Services
                             title="Code Review Services"
                             imageSrc="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80"
-                        />
-
-                        <Services
-                            title="Script Automation"
-                            imageSrc="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                         />
 
                         <Services
@@ -100,24 +76,18 @@ const About = () => {
 
             <hr className="text-white" />
             <div className="container text-white projects">
-                <div className="highlights">
-                    <p>01. Portfolio</p>
-                    <p>02. Blog</p>
-                    <p>03. Commerce</p>
-                </div>
-
                 <div className="content1">
                     <div className="main-content">
                         <h1>Complete Projects</h1>
-                        <p>All projects are built using a combination of different graphics and web development tools including:</p>
+                        <h5>All projects are built using a combination of different graphics and web development tools including:</h5>
 
-                        <ul>
-                            <li>HTML | CSS | JavaScript</li>
-                            <li>Bootstrap</li>
-                            <li>Git | GitHub</li>
-                            <li>ReactJS</li>
-                            <li>Adobe Illustrator | Photoshop</li>
-                        </ul>
+                        <div className="lh-1 fs-6 mt-3">
+                            <p>HTML | CSS | JavaScript</p>
+                            <p>Bootstrap</p>
+                            <p>Git | GitHub</p>
+                            <p>ReactJS</p>
+                            <p>Adobe Illustrator | Photoshop</p>
+                        </div>
                     </div>
                 </div>
             </div>
