@@ -104,15 +104,15 @@ const About = () => {
                 <Project
                     title="Blog"
                     number="02"
-                    overview="Built with React.JS with skills and knowldege gained in HTML, CSS, Bootstrap and JavaScript."
+                    overview="Coming Soon!"
                     imageSrc={portfolioImage}
                     describe="Personal"
                 />
 
                 <Project
-                    title="Commerce"
+                    title="Travel Company"
                     number="03"
-                    overview="Built with React.JS with skills and knowldege gained in HTML, CSS, Bootstrap and JavaScript."
+                    overview="Coming Soon!"
                     imageSrc={portfolioImage}
                     describe="Personal"
                 />
