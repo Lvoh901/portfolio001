@@ -5,23 +5,23 @@ const Contact = () => {
         <div className="container">
             <div className="container contact">
                 <div className="contact1">
-                    <form>
+                    <form name="contact" netlify>
                         <div className="group">
-                            <input type="text" required />
+                            <input type="text" name="name" required />
                             <span className="highlight"></span>
                             <span className="bar"></span>
                             <label>Name</label>
                         </div>
 
                         <div className="group">
-                            <input type="text" required />
+                            <input type="text" name="email" required />
                             <span className="highlight"></span>
                             <span className="bar"></span>
                             <label>Email</label>
                         </div>
 
                         <div className="group">
-                            <input type="text" required />
+                            <input type="text" name="message" required />
                             <span className="highlight"></span>
                             <span className="bar"></span>
                             <label>Message</label>
