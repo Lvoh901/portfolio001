@@ -73,10 +73,10 @@ const Hero = () => {
 
                         <div className="job">
                             {[
-                                { title: "Web Development", imageSrc: "web-development.jpg" },
-                                { title: "Code Review Services", imageSrc: "code-review.jpg" },
-                                { title: "Game Modding", imageSrc: "game-modding.jpg" },
-                                { title: "Data Visualization", imageSrc: "data-visualization.jpg" },
+                                { title: "Web Development", imageSrc: "https://images.unsplash.com/photo-1600132806608-231446b2e7af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" },
+                                { title: "Code Review Services", imageSrc: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" },
+                                { title: "Game Modding", imageSrc: "https://images.unsplash.com/photo-1486572788966-cfd3df1f5b42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80" },
+                                { title: "Data Visualization", imageSrc: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2015&q=80" },
                             ].map((service, index) => (
                                 <Services key={index} title={service.title} imageSrc={service.imageSrc} />
                             ))}
