@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Card from "./card";
 import Services from "./services";
 import Project from "./project";
 import { NavLink } from "react-router-dom";
