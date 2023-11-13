@@ -81,11 +81,12 @@ const About = () => {
                         <h5>All projects are built using a combination of different graphics and web development tools including:</h5>
 
                         <div className="lh-1 fs-6 mt-3">
-                            <p>HTML | CSS | JavaScript</p>
+                            <p>HTML || CSS || JavaScript</p>
                             <p>Bootstrap</p>
-                            <p>Git | GitHub</p>
+                            <p>Git || GitHub</p>
                             <p>ReactJS</p>
                             <p>Adobe Illustrator | Photoshop</p>
+                            <p>BackEnd Development (Ongoing)</p>
                         </div>
                     </div>
                 </div>
