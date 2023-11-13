@@ -85,7 +85,7 @@ const About = () => {
                             <p>Bootstrap</p>
                             <p>Git || GitHub</p>
                             <p>ReactJS</p>
-                            <p>Adobe Illustrator | Photoshop</p>
+                            <p>Adobe Illustrator || Photoshop</p>
                             <p>BackEnd Development (Ongoing)</p>
                         </div>
                     </div>
